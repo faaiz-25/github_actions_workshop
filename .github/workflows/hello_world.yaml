@@ -4,5 +4,7 @@ on:
     workflow_dispatch:
 jobs:
     hello_world:
-        -name: Print Hello World
-        run: echo Hello World
+        runs-on: ubuntu-latest
+        steps:
+            -name: Print Hello World
+            run: echo Hello World
