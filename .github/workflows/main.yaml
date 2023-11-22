@@ -1,7 +1,7 @@
 name: Say Hello World!
 
 on:
-    workflow_despatch:
+    workflow_dispatch:
 	
 jobs:
     hello-world:
